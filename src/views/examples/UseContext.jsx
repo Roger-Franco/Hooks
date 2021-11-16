@@ -22,7 +22,7 @@ const UseContext = (props) => {
     if(number > 1250) {
       setText('Eita!!!!')
     }
-  }, [number])
+  }, [number, setText])
 
     return (
         <div className="UseContext">
